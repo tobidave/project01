@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <title>Document</title>
+    <style>
+        header{
+            background-image: url(img/hector.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            width: 100vw;
+            background-repeat: no-repeat;
+            shape-outside: url();
+        }
+        @media screen and (max-width: 670px) {
+            header{
+                min-height: 500px;
+            }
+
+        .min{
+            background-color: yellow;
+            clip-path: circle(101.6% at 0 0);
+            z-index: 1;
+            height: 500px;
+            width: 500px;
+        }
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav-wrapper transparent">
+            <div class="container">
+                <a  href="./index.html" class="brand-logo">pixelss</a>
+                <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#photos" >Photos</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                </ul>
+                <ul class="sidenav grey lighten-2" id="mobile-menu">
+                    <li><a href="#photos">Photos</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    
+  <div class="container">
+
+  </div>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();  
+            $('.materialboxed').materialbox();
+            $('.parallax').parallax(); 
+            $('.scrollspy').scrollSpy();
+            $('.carousel').carousel();
+        });
+    </script>
+</body>
+</html> 
